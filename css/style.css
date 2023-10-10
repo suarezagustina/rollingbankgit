@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-h1, h2{
-    font-family: 'Abril Fatface', cursive;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+h2, h2{
+    font-family: 'PT Serif', serif;
+    color: rgb(57, 57, 134);
+}
+.logoimg{
+    width: 100px;
+}
+.imgfooter{
+    width: 250px;
 }
