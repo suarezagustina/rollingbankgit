@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+h2, h2{
+    font-family: 'PT Serif', serif;
+    color: rgb(57, 57, 134);
+}
+.logoimg{
+    width: 100px;
+}
+.imgfooter{
+    width: 250px;
+}
