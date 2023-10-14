@@ -7,7 +7,7 @@ body{
 main{
     flex-grow: 1;
 }
-h2, h2{
+h2{
     font-family: 'PT Serif', serif;
     color: rgb(57, 57, 134);
 }
@@ -16,4 +16,8 @@ h2, h2{
 }
 .imgfooter{
     width: 250px;
+}
+.imgcarrusel{
+    height: 500px;
+    object-fit: cover;
 }
