@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
 body{
     min-height: 100vh;
     display: flex;
@@ -9,7 +10,7 @@ main{
 }
 h2{
     font-family: 'PT Serif', serif;
-    color: rgb(57, 57, 134);
+    color: rgb(32, 32, 119);
 }
 .logoimg{
     width: 100px;
@@ -20,4 +21,113 @@ h2{
 .imgcarrusel{
     height: 500px;
     object-fit: cover;
+}
+.seccionPrincipal{
+    background-color: rgba(100, 99, 99, 0.164);
+}
+.cards{
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.iconcards{
+    color: rgb(31, 31, 102);
+}
+.cards h4{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+}
+.imgiphone{
+    height: 650px;
+}
+.iconseguridad1, .iconseguridad4{
+    color: #0b64c5;
+}
+.iconseguridad2, .iconseguridad3{
+    color: #410a88;
+}
+.seccionBeneficios{
+    color: #064470;
+}
+.iconbeneficio{
+    color: #0b64c5;
+} 
+.tituloBeneficios{
+  color: #010e1b;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+.card .contenidoTarjeta{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.card .card1{
+transform: perspective(600px) rotateY(0deg);
+box-shadow: 0 epx 10px black;
+}
+.card .card1 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .card1 h4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
+}
+.card .card2{
+    transform: perspective(600px) rotateY(180deg);
+    background: white;
+    padding: 15px;
+    color:rgb(12, 12, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+
+}
+.card .card2 .link{
+    border-top: solid 1px rgb(12, 12, 63);
+    height: 50px;
+    line-height: 50px;
+}
+.card .card2 .link a{
+color: rgb(12, 12, 63);
+}
+.card .card2 h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.card .card2 p{
+    letter-spacing: 1px;
+}
+.card:hover .card1{
+transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .card2{
+    transform: perspective(600px) rotateY(360deg);
+    }
+.bannerTexto{
+    background-color: #0b64c5;
+}
+@media screen and (max-width: 767px){
+   .cards{
+    margin-right: 0px;
+   }
 }
